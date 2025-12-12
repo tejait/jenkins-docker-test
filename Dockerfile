@@ -1,5 +1,5 @@
-FROM eclipse-temurin:21-jre-jammy
+FROM eclipse-temurin:21-jre-jammy-slim
 WORKDIR /app
-COPY target/test-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY target/springboot-jenkins-docker-test<.jar /app/app.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+ENTRYPOINT ["java","-jar","/app/app.jar"]
