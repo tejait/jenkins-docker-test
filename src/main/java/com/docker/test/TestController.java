@@ -12,4 +12,8 @@ public class TestController {
     public String hello() {
         return "Hello from TestController";
     }
+    @GetMapping("hi")
+    public String hi() {
+        return "Hi from TestController";
+    }
 }
