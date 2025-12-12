@@ -4,9 +4,7 @@ target
 .idea
 *.iml
 
-# Maven local metadata
-.mvn
-!.mvn/wrapper/maven-wrapper.jar   # keep this file
+
 
 # OS / Editor junk
 *.log
