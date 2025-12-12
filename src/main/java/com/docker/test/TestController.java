@@ -15,6 +15,7 @@ public class TestController {
     @GetMapping("hi")
     public String hi() {
         System.out.println("Hi endpoint was called");
+        System.out.println("Hi Hello");
         return "Hi from TestController";
     }
 }
