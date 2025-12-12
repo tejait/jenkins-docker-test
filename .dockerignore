@@ -1,0 +1,15 @@
+target
+.git
+.gitignore
+.idea
+*.iml
+
+# Maven local metadata
+.mvn
+!.mvn/wrapper/maven-wrapper.jar   # keep this file
+
+# OS / Editor junk
+*.log
+*.swp
+*.tmp
+.DS_Store
