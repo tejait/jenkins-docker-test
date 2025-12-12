@@ -92,7 +92,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-        <finalName>springboot-docker-test</finalName>
+        <finalName>springboot-jenkins-docker-test</finalName>
 	</build>
 
 </project>
